@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Thilina Dinelka - Video Editor Portfolio
 
-# Run and deploy your AI Studio app
+A modern, high-impact portfolio website for a Short-Form Video Editor & Motion Graphics Artist. Built with Next.js, Tailwind CSS, and Motion.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/1fd48f80-de72-41be-9fa6-5127cf960588
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Motion](https://motion.dev/) (formerly Framer Motion)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-## Run Locally
+## Getting Started Locally
 
-**Prerequisites:**  Node.js
+Follow these steps to run the project on your local machine.
 
+### Prerequisites
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Make sure you have [Node.js](https://nodejs.org/) (version 18.17 or higher) installed on your machine.
+
+### 1. Navigate to the project directory
+
+Open your terminal and navigate to the folder where you extracted or cloned the project:
+
+```bash
+cd path/to/project
+```
+
+### 2. Install Dependencies
+
+Install the required packages using npm:
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+Start the local development server:
+
+```bash
+npm run dev
+```
+
+### 4. View the App
+
+Open your browser and navigate to:
+
+```text
+http://localhost:3000
+```
+
+You should now see the portfolio running locally! Any changes you make to the code will automatically update in the browser.
+
+## Building for Production
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm start
+```
