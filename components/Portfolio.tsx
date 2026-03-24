@@ -89,6 +89,19 @@ export function Portfolio() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          className="mt-16 text-center"
+        >
+          <p className="text-sm text-gray-500 italic">
+            *This is a self-created sample using publicly available content to
+            showcase my editing skills.
+          </p>
+        </motion.div>
       </div>
     </section>
   );
