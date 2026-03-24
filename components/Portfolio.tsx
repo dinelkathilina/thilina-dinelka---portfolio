@@ -1,29 +1,37 @@
-'use client';
+"use client";
 
-import { motion } from 'motion/react';
-import { PlayCircle } from 'lucide-react';
+import { motion } from "motion/react";
+import { PlayCircle } from "lucide-react";
 
 const projects = [
   {
-    id: 'JcKf6Lzsb9I',
-    title: 'Fitness Motivation Reel',
-    category: 'Instagram Reels',
+    id: "1_Jv3snysyQ",
+    title: "New YouTube Short",
+    category: "YouTube Shorts",
   },
   {
-    id: 'Eu4GTNpJTVU',
-    title: 'Tech Review Short',
-    category: 'YouTube Shorts',
+    id: "JcKf6Lzsb9I",
+    title: "Fitness Motivation Reel",
+    category: "Instagram Reels",
   },
   {
-    id: 'XYdZs8Es9lA',
-    title: 'Lifestyle Vlog Edit',
-    category: 'TikTok',
+    id: "Eu4GTNpJTVU",
+    title: "Tech Review Short",
+    category: "YouTube Shorts",
+  },
+  {
+    id: "XYdZs8Es9lA",
+    title: "Lifestyle Vlog Edit",
+    category: "TikTok",
   },
 ];
 
 export function Portfolio() {
   return (
-    <section id="work" className="py-24 md:py-32 bg-surface border-t border-white/5 relative">
+    <section
+      id="work"
+      className="py-24 md:py-32 bg-surface border-t border-white/5 relative"
+    >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
@@ -42,7 +50,8 @@ export function Portfolio() {
               transition={{ delay: 0.1 }}
               className="text-lg text-gray-400 text-balance"
             >
-              A collection of high-impact short-form videos crafted to engage audiences and drive growth across social platforms.
+              A collection of high-impact short-form videos crafted to engage
+              audiences and drive growth across social platforms.
             </motion.p>
           </div>
         </div>
