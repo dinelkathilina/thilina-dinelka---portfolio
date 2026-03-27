@@ -6,7 +6,7 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 const experiences = [
   {
     role: 'Freelance Short-Form Video Editor',
-    company: 'Self-Employed / Fiverr',
+    company: 'Self-Employed',
     date: 'Jan 2023 – Present',
     location: 'Remote',
     description: [
@@ -14,7 +14,7 @@ const experiences = [
       'Design and animate lower-thirds, title cards, and branded intros using Adobe After Effects and Premiere Pro.',
       'Add dynamic captions, animated subtitles, and sound effects to boost viewer retention and accessibility.',
       'Create scroll-stopping hooks and edit to trending audio using CapCut\'s auto-sync and beat detection tools.',
-      'Collaborate with 20+ repeat clients and maintain a 5-star average rating through clear communication and on-time delivery.',
+      'Collaborate with  clients and maintain a 5-star average rating through clear communication and on-time delivery.',
       'Design social media thumbnails, story templates, and post graphics using Canva for brand consistency.',
       'Deliver projects in platform-optimised formats (9:16, 1:1, 4:5) with correct bitrate and aspect ratio settings.',
       'Podcast reels editing.',
